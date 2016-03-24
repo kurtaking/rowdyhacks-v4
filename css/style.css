@@ -5,6 +5,34 @@ body {
   padding: 0;
 }
 
+
+/*********************
+  FONTS 
+**********************/
+.font-thin {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.font-semibold {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.font-bold {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.font-light {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.font-map {
+  color: #f67280;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
 /*********************
   LANDING PAGE 
 **********************/
@@ -27,6 +55,20 @@ body {
   margin: 0 auto;
 }
 
+/* REGISTER BUTTON
+*/
+.btn-reg {
+  background-color: #f67280 !important;
+}
+
+.btn-reg:hover {
+  background-color: #f8b195 !important;
+}
+
+.btn-reg:focus {
+  background-color: #f8b195 !important;
+}
+
 @media only screen and (max-width: 768px) {
   .full-bg-img, .view {
     height: auto;
@@ -44,8 +86,6 @@ body {
     padding-top: 30px;
   }
 }
-
-
 
 
 /*********************
@@ -135,8 +175,7 @@ body {
   text-decoration: none;
 }
 
-/* MENU BAR
- * Viola Theme
+/* Viola Theme
 */
 .menu--viola .menu__item {
   position: relative;
