@@ -2,7 +2,6 @@
  * Material Design for Bootstrap
  * Version: MDB FREE: 3.3.1, MDB PRO 3.2.2 
  *
- *
  * Copyright: Material Design for Bootstrap
  * www.mdbootstrap.com
  *
@@ -7754,10 +7753,11 @@ select:focus {
   outline: 1px solid white;
 }
 
+/* NOT NEEDED FOR ROWDYHACKS
 button:focus {
   outline: none;
   background-color: #b275d1;
-}
+}*/
 
 label {
   font-size: 0.8rem;
