@@ -451,13 +451,13 @@ body {
 
 /* FOOTER SECTION
 */
-#slide-7 .btn-circle {
+#footer .btn-circle {
   background-color: #f67280;
   border: 2px solid #c06c84;
   padding-bottom: 0px;
 }
 
-#slide-7 i {
+#footer i {
   color: #355c7d;
   padding-bottom: 0px;
   font-size: 1em;
