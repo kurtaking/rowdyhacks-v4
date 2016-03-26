@@ -69,6 +69,7 @@ body {
   margin: 0 auto;
 }
 
+
 /* REGISTER BUTTON
 */
 .btn-reg {
@@ -181,7 +182,7 @@ body {
   -webkit-touch-callout: none;
   -khtml-user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.06);
+  box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.06);
 }
 .menu__link:hover,
 .menu__link:focus {
@@ -379,7 +380,7 @@ body {
 }
 
 .slide {
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   padding-top: 80px;
   text-align: center;
   height: auto;
@@ -408,16 +409,12 @@ body {
   background-color: #355c7d;
   color: #fff; 
 }
-.schedule {
-  padding-bottom: 5px;
-}
-.schedule-time {
-  text-align: right;
-  padding-right: 30px;
-}
-.schedule-event {
+.schedule-content {
   text-align: left;
-  padding-left: 30px;
+}
+.saturday-content {
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 
@@ -426,8 +423,31 @@ body {
 #sponsors {
   background-color: #6c5b7b;
   color: #fff; 
+  padding-bottom: 95px;
+}
+.sponsor-row-1 {
+  margin-top: 25px;
+}
+.sponsor-row-2 {
+  margin-top: 55px;
 }
 
+.ycj-logo {
+  padding-top: 40px;
+}
+.alexa-logo {
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+@media only screen and (max-width: 550px) {
+  .alexa-logo {
+    padding-top: 30px;
+  }
+  .ycj-logo {
+    padding-top: 90px;
+  }
+}
 
 /* FAQ SECTION
 */
@@ -465,6 +485,10 @@ body {
 
 /* FOOTER SECTION
 */
+#footer {
+  height: 15%;
+}
+
 #footer .btn-circle {
   background-color: #f67280;
   border: 2px solid #c06c84;
