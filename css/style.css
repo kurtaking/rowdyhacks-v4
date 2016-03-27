@@ -421,9 +421,14 @@ body {
 /* SPONSORS SECTION
 */
 #sponsors {
-  background-color: #6c5b7b;
+  background-color: #e4e6e5;
   color: #fff; 
   padding-bottom: 95px;
+}
+.sponsor-header {
+  font-size: 45px;
+  padding-bottom: 30px;
+  color: #355c7d;
 }
 .sponsor-row-1 {
   margin-top: 25px;
@@ -486,6 +491,7 @@ body {
 /* FOOTER SECTION
 */
 #footer {
+  background-color: #e4e6e5;
   height: 15%;
 }
 
